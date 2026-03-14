@@ -169,6 +169,10 @@ p {
   font-weight: 700;
 }
 
+.highlight {
+  background: #ffffd0;
+}
+
 .footer-table td {
   padding: 8px 16px 24px;
 }

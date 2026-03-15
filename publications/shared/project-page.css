@@ -84,6 +84,25 @@ html {
   margin: 0 auto;
 }
 
+.teaser-figure.is-tight {
+  max-width: 560px;
+  min-height: 280px;
+  padding: 14px 16px;
+}
+
+.teaser-figure.is-tight img {
+  max-height: 240px;
+}
+
+.page-figure-frame.is-setup-figure {
+  max-width: 560px;
+  min-height: 280px;
+}
+
+.page-figure-frame.is-setup-figure img {
+  max-height: 240px;
+}
+
 .results-pair {
   gap: 1.75rem;
   margin-top: 1.2rem;
@@ -96,6 +115,11 @@ html {
 }
 
 .results-pair .page-figure-frame {
+  width: 100%;
+  max-width: 430px;
+}
+
+.page-figure-frame.is-results-size {
   width: 100%;
   max-width: 430px;
 }
@@ -171,6 +195,24 @@ html {
 
   .teaser-figure.is-compact img {
     max-height: 230px;
+  }
+
+  .teaser-figure.is-tight {
+    min-height: 240px;
+    padding: 12px;
+  }
+
+  .teaser-figure.is-tight img {
+    max-height: 205px;
+  }
+
+  .page-figure-frame.is-setup-figure {
+    min-height: 240px;
+    padding: 12px;
+  }
+
+  .page-figure-frame.is-setup-figure img {
+    max-height: 205px;
   }
 
   .page-figure-frame.is-standard-figure {

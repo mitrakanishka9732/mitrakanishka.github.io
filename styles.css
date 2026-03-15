@@ -186,6 +186,10 @@ p {
   object-position: left center;
 }
 
+.entry-preview.preview-top {
+  object-position: top center;
+}
+
 .entry-thumb {
   width: 160px;
   height: 160px;
@@ -201,6 +205,12 @@ p {
 .papertitle {
   font-family: "Lato", Verdana, Helvetica, sans-serif;
   font-size: 15px;
+  font-weight: 700;
+}
+
+.oral-note,
+.oral-note * {
+  color: rgb(255, 0, 0) !important;
   font-weight: 700;
 }
 
